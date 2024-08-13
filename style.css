@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    border: solid 2px white;
+    margin-bottom: 20px; 
+    padding-left: 8px;
+}
+section {
+    background-color: rgb(86, 86, 86);
+    padding: 1px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: center;
+}
+.jogorecente {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.titulo {
+    margin-left: 8px;
+    font-weight: lighter;
+}
+.hashtag {
+    margin-left: 8px;
+}
+.chamada-texto {
+    margin-right: 3%;
+}
