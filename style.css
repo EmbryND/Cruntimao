@@ -2,6 +2,8 @@ body {
     background-color: black;
     color: white;
     margin: 0px;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 80px;
 }
 header{
     background-color: white;
@@ -12,7 +14,7 @@ header{
     margin-bottom: 20px; 
     padding-left: 8px;
 }
-section {
+.partePrincipal {
     background-color: rgb(86, 86, 86);
     padding: 1px;
     padding-bottom: 4px;
@@ -26,12 +28,36 @@ section {
 }
 
 .titulo {
+    font-size: 40px;
     margin-left: 8px;
     font-weight: lighter;
 }
 .hashtag {
+    font-size: 30px;
     margin-left: 8px;
 }
 .chamada-texto {
     margin-right: 3%;
+}
+.blocosVideos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoriaVideos {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoriaVideos img {
+    opacity: 0.5;
+    height: 150px;
+}
+.categoriaVideos img:hover {
+    opacity: 1.0;
+    border: 1px solid white;
+}
+.categoriaVideos h2 {
+    color:rgb(255, 235, 157);
 }
